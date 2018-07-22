@@ -140,6 +140,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="paS-zX-45f" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ltX-Iy-ndf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
