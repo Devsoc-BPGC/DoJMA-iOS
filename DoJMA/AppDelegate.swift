@@ -18,6 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 //        UITabBar.appearance().backgroundColor = UIColor.black
         UITabBar.appearance().tintColor = UIColor.black
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//
+//        let sideMenu = SSASideMenu(contentViewController: UINavigationController(rootViewController: IssuesViewController()), leftMenuViewController: LeftMenuViewController(), rightMenuViewController: RightMenuViewController())
+//        sideMenu.backgroundImage = #imageLiteral(resourceName: "wallpaper iphone")
+//        sideMenu.configure(SSASideMenu.MenuViewEffect(fade: true, scale: true, scaleBackground: false))
+//        sideMenu.configure(SSASideMenu.ContentViewEffect(alpha: 1, scale: 0.7))
+//        sideMenu.configure(SSASideMenu.ContentViewShadow(enabled: true, color: UIColor.black, opacity: 0.6, radius: 6.0))
+//        sideMenu.delegate = self as? SSASideMenuDelegate
+//
+//        window?.rootViewController = sideMenu
+//        window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="415" y="32"/>
         </scene>
-        <!--Issues-->
+        <!--Issues View Controller-->
         <scene sceneID="TeT-Z9-pdi">
             <objects>
-                <viewController id="N5I-AK-Amf" customClass="ViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="N5I-AK-Amf" customClass="IssuesViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aRz-me-Kcc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,11 +53,67 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZTQ-s6-pa3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Issues" image="collections_bookmark_black_192x192-29" id="SQh-u9-yGS"/>
+                    <navigationItem key="navigationItem" id="Yaw-79-beM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nC1-xi-Zcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="4646" y="-994"/>
+        </scene>
+        <!--Left Menu View Controller-->
+        <scene sceneID="8TN-Pp-A3Y">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCB-h0-6WT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="LeftMenuViewController" id="FtL-0S-k6l" customClass="LeftMenuViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VhB-qh-CJC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zlk-Op-Dwt"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3726" y="32"/>
+        </scene>
+        <!--Issues-->
+        <scene sceneID="2km-1u-35n">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NqN-JW-uJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="niE-c7-9zN" customClass="SSASideMenu" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vfa-wW-jN1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="MyN-OO-6Wo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Issues" image="collections_bookmark_black_192x192-29" id="JQq-4M-0WA"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="contentViewStoryboardID" value="IssuesViewController"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="leftMenuViewStoryboardID" value="LeftMenuViewController"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="fadeMenuView" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="scaleBackgroundImageView" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="parallaxEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="bouncesHorizontally" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="scaleMenuView" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="rightMenuViewStoryboardID" value="RightMenuViewController"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+            </objects>
             <point key="canvasLocation" x="2582" y="-994"/>
+        </scene>
+        <!--Right Menu View Controller-->
+        <scene sceneID="7LP-de-5NW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYS-2A-noU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="RightMenuViewController" id="ycZ-a1-DY6" customClass="RightMenuViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1MM-NF-4mc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TPn-Fr-TAk"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5806" y="32"/>
         </scene>
         <!--Herald-->
         <scene sceneID="fTu-iG-tcW">
@@ -171,7 +227,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="nuV-nY-9uL" kind="relationship" relationship="viewControllers" id="vhS-oQ-fAw"/>
-                        <segue destination="N5I-AK-Amf" kind="relationship" relationship="viewControllers" id="2p2-KN-s0s"/>
+                        <segue destination="niE-c7-9zN" kind="relationship" relationship="viewControllers" id="Xh4-6x-EgP"/>
                         <segue destination="BaB-kb-qvG" kind="relationship" relationship="viewControllers" id="fxM-ji-lTu"/>
                         <segue destination="KjL-41-cem" kind="relationship" relationship="viewControllers" id="NlO-pj-kYz"/>
                         <segue destination="DaA-Ft-h1Q" kind="relationship" relationship="viewControllers" id="O1R-6O-Jvl"/>
@@ -180,6 +236,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gic-Yb-ABF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1644" y="31.934032983508249"/>
+        </scene>
+        <!--Issues-->
+        <scene sceneID="GYe-0E-HCX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Q9-br-bYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="IssuesViewController" automaticallyAdjustsScrollViewInsets="NO" id="6WG-Db-gEi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Issues" image="collections_bookmark_black_192x192-29" id="SQh-u9-yGS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SvA-CU-qXW">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="N5I-AK-Amf" kind="relationship" relationship="rootViewController" id="SP7-81-nvu"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="3554" y="-994"/>
         </scene>
     </scenes>
     <resources>
