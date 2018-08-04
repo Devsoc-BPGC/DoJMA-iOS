@@ -8,7 +8,12 @@
 
 import UIKit
 
+var leftViewNumber: Int! = 0
+var leftActive: Bool!  = true
+
 class LeftMenuViewController: UIViewController {
+    
+//    var viewNumber: Int!
     
     lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -76,10 +81,13 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
 //        let images: [String] = ["IconHome", "IconCalendar", "IconProfile", "IconSettings", "IconEmpty"]
         
         cell.backgroundColor = UIColor.clear
+        cell.layer.cornerRadius = cell.frame.size.height/4
         cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 21)
         cell.textLabel?.textColor = UIColor.white
         cell.textLabel?.text  = titles[indexPath.row]
-        cell.selectionStyle = .none
+        cell.selectionStyle = .default
+//        cell.setHighlighted(true, animated: true)
+//        cell.setSelected(false, animated: true)
 //        cell.imageView?.image = UIImage(named: images[indexPath.row])
         
         
@@ -89,21 +97,36 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         tableView.deselectRow(at: indexPath, animated: true)
+//        tableView.didSele
         
         switch indexPath.row {
         case 0:
-            
-            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: IssuesViewController())
-            sideMenuViewController?.hideMenuViewController()
+//            IssuesViewController.viewDidLoad(IssuesViewController())
+            leftViewNumber = 0
             break
         case 1:
-            
-            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: SecondViewController())
-            sideMenuViewController?.hideMenuViewController()
+            leftViewNumber = 1
             break
+            
+        case 2:
+            leftViewNumber = 2
+            break
+            
+        case 3:
+            leftViewNumber = 3
+            break
+            
+        case 4:
+            leftViewNumber = 4
+            break
+            
         default:
             break
         }
+        
+        leftActive = true
+        sideMenuViewController?.contentViewController = UINavigationController(rootViewController: IssuesViewController())
+        sideMenuViewController?.hideMenuViewController()
         
         
     }

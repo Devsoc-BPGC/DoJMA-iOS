@@ -8,6 +8,8 @@
 
 import UIKit
 
+var rightViewNumber: Int! = 0
+
 class RightMenuViewController: UIViewController {
     
     lazy var tableView: UITableView = {
@@ -79,7 +81,7 @@ extension RightMenuViewController: UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 21)
         cell.textLabel?.textColor = UIColor.white
         cell.textLabel?.text  = titles[indexPath.row]
-        cell.selectionStyle = .none
+        cell.selectionStyle = .default
         
         
         
@@ -92,19 +94,28 @@ extension RightMenuViewController: UITableViewDelegate, UITableViewDataSource {
         
         switch indexPath.row {
         case 0:
-            
-            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: IssuesViewController())
-            sideMenuViewController?.hideMenuViewController()
+            rightViewNumber = 0
             break
+        
         case 1:
-            
-            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: SecondViewController())
-            sideMenuViewController?.hideMenuViewController()
+            rightViewNumber = 1
             break
+            
+        case 2:
+            rightViewNumber = 2
+            break
+            
+        case 3:
+            rightViewNumber = 3
+            break
+        
         default:
             break
         }
         
+        leftActive = false
+        sideMenuViewController?.contentViewController = UINavigationController(rootViewController: IssuesViewController())
+        sideMenuViewController?.hideMenuViewController()
         
     }
     

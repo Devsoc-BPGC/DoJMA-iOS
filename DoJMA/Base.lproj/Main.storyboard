@@ -51,6 +51,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ZTQ-s6-pa3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Yaw-79-beM"/>
@@ -62,7 +63,6 @@
         <!--Left Menu View Controller-->
         <scene sceneID="8TN-Pp-A3Y">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YCB-h0-6WT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="LeftMenuViewController" id="FtL-0S-k6l" customClass="LeftMenuViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VhB-qh-CJC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -71,18 +71,18 @@
                         <viewLayoutGuide key="safeArea" id="zlk-Op-Dwt"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCB-h0-6WT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3726" y="32"/>
         </scene>
         <!--Issues-->
         <scene sceneID="2km-1u-35n">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NqN-JW-uJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="niE-c7-9zN" customClass="SSASideMenu" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vfa-wW-jN1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="MyN-OO-6Wo"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Issues" image="collections_bookmark_black_192x192-29" id="JQq-4M-0WA"/>
@@ -97,13 +97,13 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="rightMenuViewStoryboardID" value="RightMenuViewController"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NqN-JW-uJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2582" y="-994"/>
         </scene>
         <!--Right Menu View Controller-->
         <scene sceneID="7LP-de-5NW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MYS-2A-noU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="RightMenuViewController" id="ycZ-a1-DY6" customClass="RightMenuViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1MM-NF-4mc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -112,6 +112,7 @@
                         <viewLayoutGuide key="safeArea" id="TPn-Fr-TAk"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYS-2A-noU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5806" y="32"/>
         </scene>
@@ -240,7 +241,6 @@
         <!--Issues-->
         <scene sceneID="GYe-0E-HCX">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Q9-br-bYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="IssuesViewController" automaticallyAdjustsScrollViewInsets="NO" id="6WG-Db-gEi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Issues" image="collections_bookmark_black_192x192-29" id="SQh-u9-yGS"/>
                     <toolbarItems/>
@@ -253,6 +253,7 @@
                         <segue destination="N5I-AK-Amf" kind="relationship" relationship="rootViewController" id="SP7-81-nvu"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Q9-br-bYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3554" y="-994"/>
         </scene>

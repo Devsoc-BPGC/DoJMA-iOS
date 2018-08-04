@@ -13,7 +13,6 @@
 		282023C7210D018C0067E69C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 282023C1210D018C0067E69C /* README.md */; };
 		282023C8210D018C0067E69C /* LeftDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 282023C2210D018C0067E69C /* LeftDemo.gif */; };
 		282023C9210D018C0067E69C /* RightDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 282023C3210D018C0067E69C /* RightDemo.gif */; };
-		282023CB210D02A20067E69C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282023CA210D02A20067E69C /* SecondViewController.swift */; };
 		282023CD210D02AE0067E69C /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282023CC210D02AE0067E69C /* LeftMenuViewController.swift */; };
 		282023CF210D02B80067E69C /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282023CE210D02B80067E69C /* RightMenuViewController.swift */; };
 		282023D1210D07690067E69C /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282023D0210D07690067E69C /* IssuesViewController.swift */; };
@@ -24,6 +23,15 @@
 		2865910021049201008323B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286590FE21049201008323B3 /* LaunchScreen.storyboard */; };
 		2865910B21049201008323B3 /* DoJMATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865910A21049201008323B3 /* DoJMATests.swift */; };
 		2865911621049201008323B3 /* DoJMAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865911521049201008323B3 /* DoJMAUITests.swift */; };
+		289922702113159500BE4400 /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899226F2113159500BE4400 /* IssuesView.swift */; };
+		289922722114790F00BE4400 /* CampusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289922712114790F00BE4400 /* CampusView.swift */; };
+		289922742114814500BE4400 /* InterviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289922732114814500BE4400 /* InterviewsView.swift */; };
+		289922762114815F00BE4400 /* DoJMARecommendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289922752114815F00BE4400 /* DoJMARecommendsView.swift */; };
+		289922782114817500BE4400 /* BitzFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289922772114817400BE4400 /* BitzFeedView.swift */; };
+		2899227A2114847400BE4400 /* NationalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289922792114847400BE4400 /* NationalView.swift */; };
+		2899227C2114849E00BE4400 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899227B2114849E00BE4400 /* WorldView.swift */; };
+		2899227E211484BD00BE4400 /* TechnologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899227D211484BD00BE4400 /* TechnologyView.swift */; };
+		28992280211484E900BE4400 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899227F211484E900BE4400 /* SportsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +58,6 @@
 		282023C1210D018C0067E69C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		282023C2210D018C0067E69C /* LeftDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LeftDemo.gif; sourceTree = "<group>"; };
 		282023C3210D018C0067E69C /* RightDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RightDemo.gif; sourceTree = "<group>"; };
-		282023CA210D02A20067E69C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		282023CC210D02AE0067E69C /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
 		282023CE210D02B80067E69C /* RightMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 		282023D0210D07690067E69C /* IssuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +74,15 @@
 		2865911121049201008323B3 /* DoJMAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoJMAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2865911521049201008323B3 /* DoJMAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoJMAUITests.swift; sourceTree = "<group>"; };
 		2865911721049201008323B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2899226F2113159500BE4400 /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
+		289922712114790F00BE4400 /* CampusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusView.swift; sourceTree = "<group>"; };
+		289922732114814500BE4400 /* InterviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewsView.swift; sourceTree = "<group>"; };
+		289922752114815F00BE4400 /* DoJMARecommendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoJMARecommendsView.swift; sourceTree = "<group>"; };
+		289922772114817400BE4400 /* BitzFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitzFeedView.swift; sourceTree = "<group>"; };
+		289922792114847400BE4400 /* NationalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalView.swift; sourceTree = "<group>"; };
+		2899227B2114849E00BE4400 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		2899227D211484BD00BE4400 /* TechnologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyView.swift; sourceTree = "<group>"; };
+		2899227F211484E900BE4400 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +157,7 @@
 				282023BC210D018C0067E69C /* SSASideMenu */,
 				286590F521049201008323B3 /* AppDelegate.swift */,
 				286590F721049201008323B3 /* LaunchScreenViewController.swift */,
-				282023D0210D07690067E69C /* IssuesViewController.swift */,
-				282023CA210D02A20067E69C /* SecondViewController.swift */,
+				28992282211489C100BE4400 /* Issues */,
 				282023CC210D02AE0067E69C /* LeftMenuViewController.swift */,
 				282023CE210D02B80067E69C /* RightMenuViewController.swift */,
 				286590F921049201008323B3 /* Main.storyboard */,
@@ -169,6 +184,23 @@
 				2865911721049201008323B3 /* Info.plist */,
 			);
 			path = DoJMAUITests;
+			sourceTree = "<group>";
+		};
+		28992282211489C100BE4400 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				2899226F2113159500BE4400 /* IssuesView.swift */,
+				289922712114790F00BE4400 /* CampusView.swift */,
+				289922732114814500BE4400 /* InterviewsView.swift */,
+				289922752114815F00BE4400 /* DoJMARecommendsView.swift */,
+				289922772114817400BE4400 /* BitzFeedView.swift */,
+				289922792114847400BE4400 /* NationalView.swift */,
+				2899227B2114849E00BE4400 /* WorldView.swift */,
+				2899227D211484BD00BE4400 /* TechnologyView.swift */,
+				2899227F211484E900BE4400 /* SportsView.swift */,
+				282023D0210D07690067E69C /* IssuesViewController.swift */,
+			);
+			path = Issues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,11 +339,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289922742114814500BE4400 /* InterviewsView.swift in Sources */,
+				28992280211484E900BE4400 /* SportsView.swift in Sources */,
 				282023C4210D018C0067E69C /* SSASideMenu.swift in Sources */,
+				289922722114790F00BE4400 /* CampusView.swift in Sources */,
+				2899227A2114847400BE4400 /* NationalView.swift in Sources */,
 				286590F821049201008323B3 /* LaunchScreenViewController.swift in Sources */,
+				289922702113159500BE4400 /* IssuesView.swift in Sources */,
 				286590F621049201008323B3 /* AppDelegate.swift in Sources */,
-				282023CB210D02A20067E69C /* SecondViewController.swift in Sources */,
+				289922762114815F00BE4400 /* DoJMARecommendsView.swift in Sources */,
+				2899227C2114849E00BE4400 /* WorldView.swift in Sources */,
 				282023CF210D02B80067E69C /* RightMenuViewController.swift in Sources */,
+				2899227E211484BD00BE4400 /* TechnologyView.swift in Sources */,
+				289922782114817500BE4400 /* BitzFeedView.swift in Sources */,
 				282023CD210D02AE0067E69C /* LeftMenuViewController.swift in Sources */,
 				282023D1210D07690067E69C /* IssuesViewController.swift in Sources */,
 			);
