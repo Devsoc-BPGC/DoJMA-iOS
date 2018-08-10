@@ -18,9 +18,7 @@ class UtilitiesViewController: UIViewController {
         let navbar = UINavigationBar(frame: CGRect(x: 0, y: statusBarHeight, width: UIScreen.main.bounds.width, height: statusBarHeight))
         navbar.backgroundColor = UIColor.white
         navbar.delegate = self as? UINavigationBarDelegate
-        
-//        UIApplication.shared.statusBarStyle = .default
-        
+                
         let navItem = UINavigationItem()
         navItem.title = "Utilities"
         navItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "flash-20"), style: .plain, target: self, action: nil)
