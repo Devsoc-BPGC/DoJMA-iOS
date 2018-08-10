@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28067F88211DBA0C005789ED /* UtilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28067F87211DBA0C005789ED /* UtilitiesViewController.swift */; };
 		286590F621049201008323B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286590F521049201008323B3 /* AppDelegate.swift */; };
 		286590F821049201008323B3 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286590F721049201008323B3 /* LaunchScreenViewController.swift */; };
 		286590FB21049201008323B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286590F921049201008323B3 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28067F87211DBA0C005789ED /* UtilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesViewController.swift; sourceTree = "<group>"; };
 		286590F221049201008323B3 /* DoJMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoJMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286590F521049201008323B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286590F721049201008323B3 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				286590F521049201008323B3 /* AppDelegate.swift */,
 				286590F721049201008323B3 /* LaunchScreenViewController.swift */,
+				28067F87211DBA0C005789ED /* UtilitiesViewController.swift */,
 				286590F921049201008323B3 /* Main.storyboard */,
 				286590FC21049201008323B3 /* Assets.xcassets */,
 				286590FE21049201008323B3 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286590F821049201008323B3 /* LaunchScreenViewController.swift in Sources */,
+				28067F88211DBA0C005789ED /* UtilitiesViewController.swift in Sources */,
 				286590F621049201008323B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

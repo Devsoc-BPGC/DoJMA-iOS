@@ -12,9 +12,11 @@ class LaunchScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
-            self.performSegue(withIdentifier: "showMainScreen", sender: self)
-        })
+//        DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
+//            self.performSegue(withIdentifier: "showMainScreen", sender: self)
+//        })
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -27,6 +29,17 @@ class LaunchScreenViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
             self.performSegue(withIdentifier: "showMainScreen", sender: self)
         })
+        
+//        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+       
+    }
+    
+    @objc func okay() {
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 }
 
