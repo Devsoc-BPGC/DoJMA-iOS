@@ -18,7 +18,7 @@ class UtilitiesViewController: UIViewController {
         let navbar = UINavigationBar(frame: CGRect(x: 0, y: statusBarHeight, width: UIScreen.main.bounds.width, height: statusBarHeight))
         navbar.backgroundColor = UIColor.white
         navbar.delegate = self as? UINavigationBarDelegate
-                
+        
         let navItem = UINavigationItem()
         navItem.title = "Utilities"
         navItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "flash-20"), style: .plain, target: self, action: nil)
@@ -39,18 +39,5 @@ class UtilitiesViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
