@@ -1,0 +1,16 @@
+PODS:
+  - ISTimeline (1.0.0)
+
+DEPENDENCIES:
+  - ISTimeline
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ISTimeline
+
+SPEC CHECKSUMS:
+  ISTimeline: 1b5c01c76724b3ba3b41a07e508a271e93cd82ad
+
+PODFILE CHECKSUM: f3cb859757350a1653fa05e268be2ad1fde5f4af
+
+COCOAPODS: 1.5.3

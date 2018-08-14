@@ -112,27 +112,21 @@
         <!--Events-->
         <scene sceneID="RAa-Hh-Ahf">
             <objects>
-                <viewController id="KjL-41-cem" customClass="ViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aq3-9p-67I">
+                <viewController id="KjL-41-cem" customClass="EventsViewController" customModule="DoJMA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aq3-9p-67I" customClass="ISTimeline" customModule="ISTimeline">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3P-Dz-aDo">
-                                <rect key="frame" x="112" y="290" width="151" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lUD-1o-E4U"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Events" image="event_black_192x192-29" id="cBZ-ME-mzl"/>
+                    <connections>
+                        <outlet property="timeline" destination="aq3-9p-67I" id="zSt-Iu-0H9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3b-WY-IHO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2582" y="932"/>
+            <point key="canvasLocation" x="2581.5999999999999" y="931.48425787106453"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="2ce-yW-VNm">
