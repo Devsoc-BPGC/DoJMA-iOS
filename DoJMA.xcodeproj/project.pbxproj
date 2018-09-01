@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2811AED22138222B00AA37D8 /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811AED12138222B00AA37D8 /* AboutAppView.swift */; };
+		2811AED4213972FD00AA37D8 /* AboutDoJMAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811AED3213972FD00AA37D8 /* AboutDoJMAViewController.swift */; };
+		2811AED62139BDCA00AA37D8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811AED52139BDC900AA37D8 /* CustomCell.swift */; };
+		2811AED8213A867900AA37D8 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811AED7213A867900AA37D8 /* AboutAppViewController.swift */; };
 		286590F621049201008323B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286590F521049201008323B3 /* AppDelegate.swift */; };
 		286590F821049201008323B3 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286590F721049201008323B3 /* LaunchScreenViewController.swift */; };
 		286590FB21049201008323B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286590F921049201008323B3 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		2865910021049201008323B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286590FE21049201008323B3 /* LaunchScreen.storyboard */; };
 		2865910B21049201008323B3 /* DoJMATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865910A21049201008323B3 /* DoJMATests.swift */; };
 		2865911621049201008323B3 /* DoJMAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865911521049201008323B3 /* DoJMAUITests.swift */; };
+		28FB4A2021311CF2008644A6 /* AboutDoJMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB4A1F21311CF2008644A6 /* AboutDoJMAView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2811AED12138222B00AA37D8 /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
+		2811AED3213972FD00AA37D8 /* AboutDoJMAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDoJMAViewController.swift; sourceTree = "<group>"; };
+		2811AED52139BDC900AA37D8 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2811AED7213A867900AA37D8 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
 		286590F221049201008323B3 /* DoJMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoJMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286590F521049201008323B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286590F721049201008323B3 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		2865911121049201008323B3 /* DoJMAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoJMAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2865911521049201008323B3 /* DoJMAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoJMAUITests.swift; sourceTree = "<group>"; };
 		2865911721049201008323B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FB4A1F21311CF2008644A6 /* AboutDoJMAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDoJMAView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				286590F521049201008323B3 /* AppDelegate.swift */,
 				286590F721049201008323B3 /* LaunchScreenViewController.swift */,
+				2811AED3213972FD00AA37D8 /* AboutDoJMAViewController.swift */,
+				2811AED7213A867900AA37D8 /* AboutAppViewController.swift */,
+				2811AED12138222B00AA37D8 /* AboutAppView.swift */,
+				28FB4A1F21311CF2008644A6 /* AboutDoJMAView.swift */,
+				2811AED52139BDC900AA37D8 /* CustomCell.swift */,
 				286590F921049201008323B3 /* Main.storyboard */,
 				286590FC21049201008323B3 /* Assets.xcassets */,
 				286590FE21049201008323B3 /* LaunchScreen.storyboard */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2811AED8213A867900AA37D8 /* AboutAppViewController.swift in Sources */,
+				2811AED4213972FD00AA37D8 /* AboutDoJMAViewController.swift in Sources */,
 				286590F821049201008323B3 /* LaunchScreenViewController.swift in Sources */,
 				286590F621049201008323B3 /* AppDelegate.swift in Sources */,
+				2811AED22138222B00AA37D8 /* AboutAppView.swift in Sources */,
+				2811AED62139BDCA00AA37D8 /* CustomCell.swift in Sources */,
+				28FB4A2021311CF2008644A6 /* AboutDoJMAView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
