@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 //        UITabBar.appearance().backgroundColor = UIColor.black
         UITabBar.appearance().tintColor = UIColor.black
+        FirebaseApp.configure();
+        Database.database().isPersistenceEnabled = true;
         return true
     }
 
