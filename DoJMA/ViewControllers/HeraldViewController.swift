@@ -49,6 +49,10 @@ class HeraldViewController: UIViewController,UITableViewDelegate, UITableViewDat
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if(!checkSegue){
             if (scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height)) {
+                if(currentPage==totalPages!){
+                    reloadButton.isHidden = true
+                }
+
                 reloadButton.isHidden = false
             }else{
                 reloadButton.isHidden = true
@@ -146,6 +150,10 @@ class HeraldViewController: UIViewController,UITableViewDelegate, UITableViewDat
     
     @IBAction func loadMoreButtonPressed(_ sender: Any) {
         reloadButton.isHidden = true
+
+        if(currentPage==totalPages!){
+            return
+        }
         activityIndicatorView?.startAnimating()
         currentPage = currentPage+1
         var jsonURLString = "http://bitsherald.org/api/get_posts/?page=\(currentPage)";
