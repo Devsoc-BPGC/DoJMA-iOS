@@ -200,7 +200,9 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" smartInsertDeleteType="yes"/>
                                                 </textView>
                                                 <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="2018-05-18" translatesAutoresizingMaskIntoConstraints="NO" id="080-cx-oUp">
+
                                                     <rect key="frame" x="12" y="247" width="240" height="25"/>
+
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="IS4-Dg-u1r"/>
@@ -227,7 +229,9 @@
                                                 <constraint firstItem="wbo-qH-whI" firstAttribute="leading" secondItem="ydZ-Pc-QHC" secondAttribute="leadingMargin" constant="-6" id="96A-BR-0ga"/>
                                                 <constraint firstItem="JGw-57-vbJ" firstAttribute="leading" secondItem="ydZ-Pc-QHC" secondAttribute="leadingMargin" id="P9f-aI-Qo5"/>
                                                 <constraint firstAttribute="bottom" secondItem="080-cx-oUp" secondAttribute="bottom" constant="8" id="W2s-u7-d0B"/>
+
                                                 <constraint firstItem="080-cx-oUp" firstAttribute="leading" secondItem="ydZ-Pc-QHC" secondAttribute="leading" constant="12" id="b3p-wA-4V4"/>
+
                                                 <constraint firstAttribute="bottom" secondItem="wbo-qH-whI" secondAttribute="bottom" constant="25" id="d3n-kS-R7G"/>
                                                 <constraint firstItem="JGw-57-vbJ" firstAttribute="trailing" secondItem="ydZ-Pc-QHC" secondAttribute="trailingMargin" id="dnC-pZ-4N0"/>
                                                 <constraint firstAttribute="bottom" secondItem="z3Y-jD-mMl" secondAttribute="bottom" constant="8" id="e4c-fq-KsM"/>
@@ -1194,14 +1198,18 @@
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
+
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="20 Sep" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLL-Yd-qdU">
+
                                                     <rect key="frame" x="0.0" y="21" width="60" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
+
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="7:30PM" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vt-Yd-6cP">
+
                                                     <rect key="frame" x="0.0" y="36" width="60" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1249,7 +1257,9 @@
                                                     <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
+
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="20 Sep" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNx-VA-3Mk">
+
                                                     <rect key="frame" x="0.0" y="19" width="60" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1270,7 +1280,10 @@
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
+
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="7:30PM" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leM-Ga-RXp">
+
+
                                                     <rect key="frame" x="0.0" y="33" width="60" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1321,6 +1334,7 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="20 Sep" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GX-cB-kKg">
+                                              
                                                     <rect key="frame" x="0.0" y="19" width="60" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1339,7 +1353,9 @@
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
+                                              
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="7:30PM" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpG-VB-82D">
+
                                                     <rect key="frame" x="0.0" y="33" width="60" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

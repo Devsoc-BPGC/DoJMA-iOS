@@ -51,8 +51,9 @@ class campusWatchVC: UIViewController, VerticalCardSwiperDatasource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         cardSwiper = VerticalCardSwiper(frame: CGRect(x: 0, y: UIApplication.shared.statusBarFrame.height + 50, width: self.view.frame.width, height: self.view.frame.height - 50 - UIApplication.shared.statusBarFrame.height))
+
         cardSwiper.topInset = 0
         view.addSubview(cardSwiper)
         let activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: self.view.frame.width/2 - 15, y: self.view.frame.height/2 - 15 , width: 30, height: 30), type: NVActivityIndicatorType.ballPulseSync, color: UIColor(hexString: "#3497FD"), padding: 3)

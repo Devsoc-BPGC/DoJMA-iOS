@@ -52,6 +52,7 @@ class HeraldViewController: UIViewController,UITableViewDelegate, UITableViewDat
                 if(currentPage==totalPages!){
                     reloadButton.isHidden = true
                 }
+
                 reloadButton.isHidden = false
             }else{
                 reloadButton.isHidden = true
@@ -149,6 +150,7 @@ class HeraldViewController: UIViewController,UITableViewDelegate, UITableViewDat
     
     @IBAction func loadMoreButtonPressed(_ sender: Any) {
         reloadButton.isHidden = true
+
         if(currentPage==totalPages!){
             return
         }

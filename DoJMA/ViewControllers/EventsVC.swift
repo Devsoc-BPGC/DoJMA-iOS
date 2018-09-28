@@ -61,6 +61,7 @@ class EventsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             cell.detailsTV.text = Events[indexPath.count - indexPath.row].desc;
             cell.venueTV.text = Events[indexPath.count - indexPath.row].location;
             cell.titleTV.text = Events[indexPath.count - indexPath.row].title;
+
             cell.selectionStyle = UITableViewCellSelectionStyle.none
             return cell
         }
@@ -71,6 +72,7 @@ class EventsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             cell.detailsTV.text = Events[indexPath.count - indexPath.row].desc;
             cell.venueTV.text = Events[indexPath.count - indexPath.row].location;
             cell.titleTV.text = Events[indexPath.count - indexPath.row].title;
+
             cell.selectionStyle = UITableViewCellSelectionStyle.none
             return cell;
         }
@@ -82,6 +84,7 @@ class EventsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.venueTV.text = Events[indexPath.count - indexPath.row].location;
         cell.titleTV.text = Events[indexPath.count - indexPath.row].title;
         cell.selectionStyle = UITableViewCellSelectionStyle.none
+
         return cell;
     }
     
